@@ -1,0 +1,25 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/richardwu/go-perfy/string-cast-byte-slice-map
+BenchmarkDirectIndex-8   	  300000	      4900 ns/op
+BenchmarkDirectIndex-8   	  300000	      5346 ns/op
+BenchmarkDirectIndex-8   	  300000	      4992 ns/op
+BenchmarkDirectIndex-8   	  300000	      4987 ns/op
+BenchmarkDirectIndex-8   	  300000	      4993 ns/op
+BenchmarkDirectIndex-8   	  300000	      4925 ns/op
+BenchmarkDirectIndex-8   	  300000	      4881 ns/op
+BenchmarkDirectIndex-8   	  300000	      4900 ns/op
+BenchmarkDirectIndex-8   	  300000	      5055 ns/op
+BenchmarkDirectIndex-8   	  300000	      4871 ns/op
+BenchmarkCastFirst-8     	  300000	      5999 ns/op
+BenchmarkCastFirst-8     	  300000	      5816 ns/op
+BenchmarkCastFirst-8     	  200000	      5789 ns/op
+BenchmarkCastFirst-8     	  300000	      5885 ns/op
+BenchmarkCastFirst-8     	  300000	      5910 ns/op
+BenchmarkCastFirst-8     	  200000	      5958 ns/op
+BenchmarkCastFirst-8     	  200000	      5775 ns/op
+BenchmarkCastFirst-8     	  200000	      6006 ns/op
+BenchmarkCastFirst-8     	  300000	      5863 ns/op
+BenchmarkCastFirst-8     	  300000	      5853 ns/op
+PASS
+ok  	github.com/richardwu/go-perfy/string-cast-byte-slice-map	31.402s

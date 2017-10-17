@@ -1,4 +1,4 @@
-# Appending vs Indexing for Creating a Slice
+# Appending vs indexing for creating a slice
 
 ## Benchmarks
 

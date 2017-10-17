@@ -1,4 +1,4 @@
-# Maps with Byte Slice Keys
+# Maps with byte slice keys
 
 Go maps do not permit using slices (with arbitrary size) as keys in maps.
 

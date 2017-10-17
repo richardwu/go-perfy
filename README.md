@@ -1,4 +1,4 @@
-# Go Perfy - Simple Benchmarks for Go Idioms
+# Go Perfy - simple benchmarks for Go idioms
 
 This repository contains various benchmarks that compares the performance
 of various idioms in Go.
