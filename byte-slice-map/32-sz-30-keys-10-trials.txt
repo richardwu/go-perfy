@@ -1,0 +1,34 @@
+goos: darwin
+goarch: amd64
+BenchmarkStringMap-4   	   20000	     77029 ns/op
+BenchmarkStringMap-4   	   20000	     76825 ns/op
+BenchmarkStringMap-4   	   20000	     77927 ns/op
+BenchmarkStringMap-4   	   20000	     77169 ns/op
+BenchmarkStringMap-4   	   20000	     77995 ns/op
+BenchmarkStringMap-4   	   20000	     78762 ns/op
+BenchmarkStringMap-4   	   20000	     79645 ns/op
+BenchmarkStringMap-4   	   20000	     77235 ns/op
+BenchmarkStringMap-4   	   20000	     78824 ns/op
+BenchmarkStringMap-4   	   20000	     76764 ns/op
+BenchmarkMD5Map-4      	   20000	     81453 ns/op
+BenchmarkMD5Map-4      	   20000	     97151 ns/op
+BenchmarkMD5Map-4      	   10000	    142489 ns/op
+BenchmarkMD5Map-4      	   20000	     88703 ns/op
+BenchmarkMD5Map-4      	   20000	     89439 ns/op
+BenchmarkMD5Map-4      	   20000	     83829 ns/op
+BenchmarkMD5Map-4      	   20000	     84379 ns/op
+BenchmarkMD5Map-4      	   20000	     84381 ns/op
+BenchmarkMD5Map-4      	   20000	     84113 ns/op
+BenchmarkMD5Map-4      	   20000	     85014 ns/op
+BenchmarkCRC32Map-4    	   20000	     80780 ns/op
+BenchmarkCRC32Map-4    	   20000	     79590 ns/op
+BenchmarkCRC32Map-4    	   20000	     79475 ns/op
+BenchmarkCRC32Map-4    	   20000	     79249 ns/op
+BenchmarkCRC32Map-4    	   20000	     78918 ns/op
+BenchmarkCRC32Map-4    	   20000	     80110 ns/op
+BenchmarkCRC32Map-4    	   20000	     79123 ns/op
+BenchmarkCRC32Map-4    	   20000	     78183 ns/op
+BenchmarkCRC32Map-4    	   20000	     78955 ns/op
+BenchmarkCRC32Map-4    	   20000	     77265 ns/op
+PASS
+ok  	_/Users/rwu1997/Programming/go-perf-idioms	72.024s
