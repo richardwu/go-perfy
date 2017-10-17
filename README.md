@@ -7,7 +7,7 @@ When is a slice better than using a map for simple set membership
 (and not deletions)? What is the best way to map a slice of bytes to some value?
 
 To run any benchmark, simply `cd` into the benchmark directory and run
-```
+```bash
 go test -bench=. -count <# of times> > <results file>
 ```
 You can then use [benchstat](https://godoc.org/golang.org/x/perf/cmd/benchstat)

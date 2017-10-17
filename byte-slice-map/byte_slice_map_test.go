@@ -39,18 +39,6 @@ func StringMapAccess(lookup map[string]struct{}, keys []string) struct{} {
 	return out
 }
 
-// Prevents compiler optimizing out the procedure calls.
-var result struct{}
-
-func BenchmarkStringMap(b *testing.B) {
-	buffer := byteBuffer()
-	var temp struct{}
-	for i := 0; i < b.N; i++ {
-		temp = StringMapAccess(StringMap(buffer))
-	}
-	result = temp
-}
-
 func MD5Map(buffer []byte) (map[[16]byte]struct{}, [][16]byte) {
 	out := make(map[[16]byte]struct{}, *nKeys)
 	keys := make([][16]byte, *nKeys)
@@ -73,15 +61,6 @@ func MD5MapAccess(lookup map[[16]byte]struct{}, keys [][16]byte) struct{} {
 	return out
 }
 
-func BenchmarkMD5Map(b *testing.B) {
-	buffer := byteBuffer()
-	var temp struct{}
-	for i := 0; i < b.N; i++ {
-		temp = MD5MapAccess(MD5Map(buffer))
-	}
-	result = temp
-}
-
 func CRC32Map(buffer []byte, tab *crc32.Table) (map[uint32]struct{}, []uint32) {
 	out := make(map[uint32]struct{}, *nKeys)
 	keys := make([]uint32, *nKeys)
@@ -102,6 +81,27 @@ func CRC32MapAccess(lookup map[uint32]struct{}, keys []uint32) struct{} {
 		out = lookup[keys[idx]]
 	}
 	return out
+}
+
+// Prevents compiler optimizing out the procedure calls.
+var result struct{}
+
+func BenchmarkStringMap(b *testing.B) {
+	buffer := byteBuffer()
+	var temp struct{}
+	for i := 0; i < b.N; i++ {
+		temp = StringMapAccess(StringMap(buffer))
+	}
+	result = temp
+}
+
+func BenchmarkMD5Map(b *testing.B) {
+	buffer := byteBuffer()
+	var temp struct{}
+	for i := 0; i < b.N; i++ {
+		temp = MD5MapAccess(MD5Map(buffer))
+	}
+	result = temp
 }
 
 func BenchmarkCRC32Map(b *testing.B) {

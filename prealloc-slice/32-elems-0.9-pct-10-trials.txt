@@ -1,0 +1,35 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/richardwu/go-perfy/prealloc-slice
+BenchmarkAppend-8       	 1000000	      1190 ns/op
+BenchmarkAppend-8       	 1000000	      1184 ns/op
+BenchmarkAppend-8       	 1000000	      1186 ns/op
+BenchmarkAppend-8       	 1000000	      1187 ns/op
+BenchmarkAppend-8       	 1000000	      1196 ns/op
+BenchmarkAppend-8       	 1000000	      1187 ns/op
+BenchmarkAppend-8       	 1000000	      1204 ns/op
+BenchmarkAppend-8       	 1000000	      1190 ns/op
+BenchmarkAppend-8       	 1000000	      1187 ns/op
+BenchmarkAppend-8       	 1000000	      1187 ns/op
+BenchmarkExactAlloc-8   	 1000000	      1009 ns/op
+BenchmarkExactAlloc-8   	 1000000	      1015 ns/op
+BenchmarkExactAlloc-8   	 1000000	      1034 ns/op
+BenchmarkExactAlloc-8   	 1000000	      1014 ns/op
+BenchmarkExactAlloc-8   	 1000000	      1080 ns/op
+BenchmarkExactAlloc-8   	 1000000	      1210 ns/op
+BenchmarkExactAlloc-8   	 1000000	      1126 ns/op
+BenchmarkExactAlloc-8   	 1000000	      1114 ns/op
+BenchmarkExactAlloc-8   	 1000000	      1031 ns/op
+BenchmarkExactAlloc-8   	 1000000	      1103 ns/op
+BenchmarkMaxAlloc-8     	 1000000	      1074 ns/op
+BenchmarkMaxAlloc-8     	 1000000	      1064 ns/op
+BenchmarkMaxAlloc-8     	 1000000	      1064 ns/op
+BenchmarkMaxAlloc-8     	 1000000	      1059 ns/op
+BenchmarkMaxAlloc-8     	 2000000	      1028 ns/op
+BenchmarkMaxAlloc-8     	 1000000	      1078 ns/op
+BenchmarkMaxAlloc-8     	 1000000	      1132 ns/op
+BenchmarkMaxAlloc-8     	 1000000	      1032 ns/op
+BenchmarkMaxAlloc-8     	 2000000	      1033 ns/op
+BenchmarkMaxAlloc-8     	 2000000	      1082 ns/op
+PASS
+ok  	github.com/richardwu/go-perfy/prealloc-slice	39.752s
