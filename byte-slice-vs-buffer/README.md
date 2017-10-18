@@ -53,6 +53,8 @@ for {
 
 ## Results
 
+### Go 1.9
+
 With `--num-elems=100`, `--elem-size=32` and 10 trials
 ```
 name             time/op

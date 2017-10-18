@@ -63,7 +63,7 @@ for i, e := range input {
 
 ## Flags
 ```
-  --max-elems       The maximum number of elements that can be in the final
+  --max-size        The maximum number of elements that can be in the final
                     slice (the size of the input slice).
   --append-pct      The percentage of elements (in the input slice) that will
                     be appended to the final slice.
@@ -71,7 +71,9 @@ for i, e := range input {
 
 ## Results
 
-With `--max-elems=32`, `--append-pct=0.9` and 10 trials
+### Go 1.9
+
+With `--max-size=32`, `--append-pct=0.9` and 10 trials
 ```
 name          time/op
 Append-8      1.19µs ± 0%

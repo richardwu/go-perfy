@@ -3,8 +3,9 @@
 This repository contains various benchmarks that compares the performance
 of various idioms in Go.
 
-When is a slice better than using a map for simple set membership
-(and not deletions)? What is the best way to map a slice of bytes to some value?
+When is using a slice better than using a `map` for sets and maps?
+What is the best way to map a slice of bytes to some value?
+Is it more efficient to do X or is it better to do Y?
 
 To run any benchmark, simply `cd` into the benchmark directory and run
 ```bash

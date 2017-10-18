@@ -1,0 +1,25 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/richardwu/go-perfy/slice-vs-map-set
+BenchmarkSliceSet-8   	  300000	      5783 ns/op
+BenchmarkSliceSet-8   	  300000	      5962 ns/op
+BenchmarkSliceSet-8   	  300000	      5835 ns/op
+BenchmarkSliceSet-8   	  300000	      5600 ns/op
+BenchmarkSliceSet-8   	  200000	      5666 ns/op
+BenchmarkSliceSet-8   	  300000	      5732 ns/op
+BenchmarkSliceSet-8   	  300000	      5976 ns/op
+BenchmarkSliceSet-8   	  300000	      5662 ns/op
+BenchmarkSliceSet-8   	  300000	      5426 ns/op
+BenchmarkSliceSet-8   	  300000	      6117 ns/op
+BenchmarkHashSet-8    	  200000	      6808 ns/op
+BenchmarkHashSet-8    	  200000	      7050 ns/op
+BenchmarkHashSet-8    	  200000	      6963 ns/op
+BenchmarkHashSet-8    	  200000	      6998 ns/op
+BenchmarkHashSet-8    	  200000	      7127 ns/op
+BenchmarkHashSet-8    	  200000	      7018 ns/op
+BenchmarkHashSet-8    	  200000	      7034 ns/op
+BenchmarkHashSet-8    	  200000	      6807 ns/op
+BenchmarkHashSet-8    	  200000	      6714 ns/op
+BenchmarkHashSet-8    	  200000	      6941 ns/op
+PASS
+ok  	github.com/richardwu/go-perfy/slice-vs-map-set	31.950s

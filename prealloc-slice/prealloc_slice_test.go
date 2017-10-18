@@ -6,11 +6,11 @@ import (
 	"testing"
 )
 
-var maxElems = flag.Int("max-elems", 32, "maximum number of elements in the final slice")
+var maxSz = flag.Int("max-size", 32, "maximum number of elements in the final slice")
 var appendPct = flag.Float64("append-*appendPct", 0.9, "percentage of maximum number of elements to incude in the final slice")
 
 func randBoolSlice() []bool {
-	out := make([]bool, *maxElems)
+	out := make([]bool, *maxSz)
 	for i := range out {
 		out[i] = rand.Float64() < *appendPct
 	}

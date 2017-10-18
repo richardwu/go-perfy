@@ -34,6 +34,8 @@ for i, e := range input {
 
 ## Results
 
+### Go 1.9
+
 With `--slice-size=32` and 10 trials
 ```
 name      time/op

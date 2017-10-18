@@ -64,6 +64,8 @@ lookup[crc32.Checksum(key, table)] = input
 
 ## Results
 
+### Go 1.9
+
 With `--key-size=32`, `--num-keys=30` and 10 trials
 ```
 name         time/op
