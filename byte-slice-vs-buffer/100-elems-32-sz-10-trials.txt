@@ -1,0 +1,35 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/richardwu/go-perfy/byte-slice-vs-buffer
+BenchmarkUnallocSlice-8    	   10000	    229099 ns/op
+BenchmarkUnallocSlice-8    	   10000	    235504 ns/op
+BenchmarkUnallocSlice-8    	   10000	    240689 ns/op
+BenchmarkUnallocSlice-8    	   10000	    235669 ns/op
+BenchmarkUnallocSlice-8    	    5000	    233712 ns/op
+BenchmarkUnallocSlice-8    	   10000	    232295 ns/op
+BenchmarkUnallocSlice-8    	   10000	    234236 ns/op
+BenchmarkUnallocSlice-8    	   10000	    244922 ns/op
+BenchmarkUnallocSlice-8    	   10000	    243959 ns/op
+BenchmarkUnallocSlice-8    	    5000	    235581 ns/op
+BenchmarkPreallocSlice-8   	   10000	    237756 ns/op
+BenchmarkPreallocSlice-8   	   10000	    238727 ns/op
+BenchmarkPreallocSlice-8   	   10000	    239532 ns/op
+BenchmarkPreallocSlice-8   	    5000	    236778 ns/op
+BenchmarkPreallocSlice-8   	   10000	    240886 ns/op
+BenchmarkPreallocSlice-8   	   10000	    232944 ns/op
+BenchmarkPreallocSlice-8   	   10000	    238974 ns/op
+BenchmarkPreallocSlice-8   	    5000	    240183 ns/op
+BenchmarkPreallocSlice-8   	   10000	    236521 ns/op
+BenchmarkPreallocSlice-8   	   10000	    241707 ns/op
+BenchmarkBytesBuffer-8     	    5000	    235925 ns/op
+BenchmarkBytesBuffer-8     	   10000	    238722 ns/op
+BenchmarkBytesBuffer-8     	   10000	    234278 ns/op
+BenchmarkBytesBuffer-8     	    5000	    239598 ns/op
+BenchmarkBytesBuffer-8     	   10000	    232995 ns/op
+BenchmarkBytesBuffer-8     	   10000	    231466 ns/op
+BenchmarkBytesBuffer-8     	   10000	    231435 ns/op
+BenchmarkBytesBuffer-8     	   10000	    240375 ns/op
+BenchmarkBytesBuffer-8     	   10000	    239655 ns/op
+BenchmarkBytesBuffer-8     	   10000	    237750 ns/op
+PASS
+ok  	github.com/richardwu/go-perfy/byte-slice-vs-buffer	64.748s
