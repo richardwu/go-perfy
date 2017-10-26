@@ -1,0 +1,45 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/richardwu/go-perfy/range-over-struct
+BenchmarkIndexRange-8            	 1000000	      1878 ns/op
+BenchmarkIndexRange-8            	 1000000	      1891 ns/op
+BenchmarkIndexRange-8            	 1000000	      2004 ns/op
+BenchmarkIndexRange-8            	 1000000	      1932 ns/op
+BenchmarkIndexRange-8            	 1000000	      1901 ns/op
+BenchmarkIndexRange-8            	 1000000	      1894 ns/op
+BenchmarkIndexRange-8            	 1000000	      1955 ns/op
+BenchmarkIndexRange-8            	 1000000	      1888 ns/op
+BenchmarkIndexRange-8            	 1000000	      1899 ns/op
+BenchmarkIndexRange-8            	 1000000	      1916 ns/op
+BenchmarkCopyRange-8             	  300000	      5738 ns/op
+BenchmarkCopyRange-8             	  300000	      5676 ns/op
+BenchmarkCopyRange-8             	  300000	      6479 ns/op
+BenchmarkCopyRange-8             	  200000	      5754 ns/op
+BenchmarkCopyRange-8             	  300000	      5509 ns/op
+BenchmarkCopyRange-8             	  300000	      5564 ns/op
+BenchmarkCopyRange-8             	  300000	      5571 ns/op
+BenchmarkCopyRange-8             	  300000	      5445 ns/op
+BenchmarkCopyRange-8             	  300000	      5461 ns/op
+BenchmarkCopyRange-8             	  300000	      5394 ns/op
+BenchmarkIndexRangeEveryByte-8   	   50000	     36519 ns/op
+BenchmarkIndexRangeEveryByte-8   	   50000	     36225 ns/op
+BenchmarkIndexRangeEveryByte-8   	   50000	     36668 ns/op
+BenchmarkIndexRangeEveryByte-8   	   50000	     36333 ns/op
+BenchmarkIndexRangeEveryByte-8   	   50000	     36363 ns/op
+BenchmarkIndexRangeEveryByte-8   	   50000	     36192 ns/op
+BenchmarkIndexRangeEveryByte-8   	   50000	     36807 ns/op
+BenchmarkIndexRangeEveryByte-8   	   50000	     36570 ns/op
+BenchmarkIndexRangeEveryByte-8   	   50000	     36657 ns/op
+BenchmarkIndexRangeEveryByte-8   	   50000	     36476 ns/op
+BenchmarkCopyRangeEveryByte-8    	   50000	     24167 ns/op
+BenchmarkCopyRangeEveryByte-8    	  100000	     24046 ns/op
+BenchmarkCopyRangeEveryByte-8    	  100000	     24034 ns/op
+BenchmarkCopyRangeEveryByte-8    	  100000	     24015 ns/op
+BenchmarkCopyRangeEveryByte-8    	   50000	     24099 ns/op
+BenchmarkCopyRangeEveryByte-8    	  100000	     24082 ns/op
+BenchmarkCopyRangeEveryByte-8    	  100000	     24296 ns/op
+BenchmarkCopyRangeEveryByte-8    	  100000	     24074 ns/op
+BenchmarkCopyRangeEveryByte-8    	  100000	     24169 ns/op
+BenchmarkCopyRangeEveryByte-8    	  100000	     23883 ns/op
+PASS
+ok  	github.com/richardwu/go-perfy/range-over-struct	82.401s
