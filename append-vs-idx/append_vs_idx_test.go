@@ -25,7 +25,7 @@ func IdxSlice() []int {
 	return foo
 }
 
-// Prevents compiler optimizing out the procedure calls.
+// Prevents compiler optimizing out the loop.
 var result []int
 
 func BenchmarkAppend(b *testing.B) {

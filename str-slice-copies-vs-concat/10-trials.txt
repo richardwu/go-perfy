@@ -1,0 +1,25 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/richardwu/go-perfy/str-slice-copies-vs-concat
+BenchmarkCopies-8   	500000000	         3.98 ns/op
+BenchmarkCopies-8   	500000000	         3.92 ns/op
+BenchmarkCopies-8   	500000000	         3.87 ns/op
+BenchmarkCopies-8   	500000000	         3.98 ns/op
+BenchmarkCopies-8   	300000000	         4.02 ns/op
+BenchmarkCopies-8   	500000000	         3.95 ns/op
+BenchmarkCopies-8   	500000000	         4.11 ns/op
+BenchmarkCopies-8   	300000000	         4.11 ns/op
+BenchmarkCopies-8   	300000000	         3.96 ns/op
+BenchmarkCopies-8   	500000000	         4.45 ns/op
+BenchmarkConcat-8   	50000000	        25.7 ns/op
+BenchmarkConcat-8   	100000000	        28.4 ns/op
+BenchmarkConcat-8   	50000000	        27.2 ns/op
+BenchmarkConcat-8   	100000000	        25.2 ns/op
+BenchmarkConcat-8   	100000000	        24.7 ns/op
+BenchmarkConcat-8   	100000000	        24.4 ns/op
+BenchmarkConcat-8   	50000000	        24.4 ns/op
+BenchmarkConcat-8   	50000000	        24.4 ns/op
+BenchmarkConcat-8   	100000000	        24.3 ns/op
+BenchmarkConcat-8   	100000000	        24.6 ns/op
+PASS
+ok  	github.com/richardwu/go-perfy/str-slice-copies-vs-concat	42.296s
